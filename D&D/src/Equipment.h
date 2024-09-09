@@ -13,6 +13,7 @@ namespace dungeon{
         string e_Name{}; // Nome do equipamento
         int e_Price{0}; // Preço do equipamento
         int e_Type{0}; // Tipo de equipamento: 0 = Arma, 1 = Armadura, 2 = Acessório, 3 = Consumível
+        string e_Description{}; // Descrição do equipamento
     public:
     };
 }

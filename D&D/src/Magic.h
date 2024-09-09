@@ -18,6 +18,32 @@ namespace dungeon{
         int m_Duration{0}; // Quantas rodadas, minutos, horas ou dias uma magia pode durars
         int m_Effect{0}; // Se a magia é em: Área (Circulo), Cone (Triangulo), Linha (Cilindro horizontal), Pilar (Cilindro vertical)
     public:
+        Magic();
+        Magic(int id, string name, Character path, int cost, int range, int duration, int effect);
+        Magic(const Magic &src);
+        Magic& operator=(const Magic &src);
+        void init(const Magic &src);
+        ~Magic() = default;
+
+        // Metodos GET
+        int getID() const;
+        string getName() const;
+        Character getPath() const;
+        int getCost() const;
+        int getRange() const;
+        int getDuration() const;
+        int getEffect() const;
+
+        // Metodos SET
+        void setID(int id);
+        void setName(string name);
+        void setPath(Character path);
+        void setCost(int cost);
+        void setRange(int range);
+        void setDuration(int duration);
+        void setEffect(int effect);
+
+        void displayMagic(std::ostream &out) const;
     };
 }
 

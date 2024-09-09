@@ -16,6 +16,28 @@ namespace dungeon{
         string a_Description{}; // Descrição da vantagem
         Character Characteristics;
     public:
+    Advantages();
+    Advantages(int id, string name, int cost, string description, Character characteristics);
+    Advantages(const Advantages &src);
+    Advantages& operator=(const Advantages &src);
+    void init(const Advantages &src);
+    ~Advantages() = default;
+
+    // Metodos GET
+    int getID() const;
+    string getName() const;
+    string getDescription() const;
+    int getCost() const;
+    Character getCharacteristics() const;
+
+    // Metodos SET
+    void setID(int id);
+    void setName(string name);
+    void setDescription(string description);
+    void setCost(int cost);
+    void setCharacteristics(Character characteristics);
+
+    void displayAdvantages(std::ostream &out) const;
     };
 }
 

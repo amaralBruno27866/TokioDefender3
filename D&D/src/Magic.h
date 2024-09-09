@@ -18,7 +18,7 @@ namespace dungeon{
         int m_Duration{0}; // Quantas rodadas, minutos, horas ou dias uma magia pode durars
         int m_Effect{0}; // Se a magia é em: Área (Circulo), Cone (Triangulo), Linha (Cilindro horizontal), Pilar (Cilindro vertical)
     public:
-    }
+    };
 }
 
 #endif // MAGIC_H_INCLUDED

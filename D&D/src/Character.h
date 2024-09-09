@@ -13,7 +13,7 @@ namespace dungeon{
         int c_Resistance{0}; // Representa sua resistencia a encantamentos, feitiço, habilidades mentais, venenos, doenças e maldições
         int c_Armor{0}; // Representa sua capacidade defensiva
         int c_Firepower{0}; // Representa sua capacidadade de ataques a longa distância, seja com um arco, com uma pistola ou magia
-    }
+    };
 
     struct PathsOfMagic{
         int c_Water{0}; // Representa o elemento água
@@ -22,7 +22,7 @@ namespace dungeon{
         int c_Light{0}; // Representa o elemento luz
         int c_Earth{0}; // Representa o elemento terra
         int c_Darkness{0}; // Representa o elemento trevas
-    }
+    };
 
     class Character{
     private:
@@ -34,7 +34,7 @@ namespace dungeon{
         string c_History{}; // Um texto que conta um pouco sobre seu personagem.
         int c_XPS{0}; // Representa os pontos de experiência que o jogador possui para comprar novas habilidades e poderes
     public:
-    }
+    };
 }
 
 #endif // CHARACTER_H_INCLUDED

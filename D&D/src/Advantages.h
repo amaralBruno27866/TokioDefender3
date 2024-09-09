@@ -16,7 +16,7 @@ namespace dungeon{
         string a_Description{}; // Descrição da vantagem
         Character Characteristics;
     public:
-    }
+    };
 }
 
 #endif // ADVANTAGES_H_INCLUDED

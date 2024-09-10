@@ -33,10 +33,15 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Accessories.h" />
 		<Unit filename="src/Advantages.h" />
+		<Unit filename="src/ArmorShield.h" />
 		<Unit filename="src/Character.h" />
+		<Unit filename="src/Equipment.h" />
 		<Unit filename="src/Expertise.h" />
+		<Unit filename="src/Items.h" />
 		<Unit filename="src/Magic.h" />
+		<Unit filename="src/Weapon.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
